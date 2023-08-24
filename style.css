@@ -1,0 +1,21 @@
+/* navbar styling */
+.navbar {
+    background: rgb(27,0,149);
+background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, rgba(12,43,162,1) 69%, rgba(13,32,111,1) 100%);
+}
+.navbar .container-fluid .navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.d-flex li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.d-flex li {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
