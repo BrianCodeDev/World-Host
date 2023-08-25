@@ -38,6 +38,11 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
     border-radius: 4px;
     font-weight: bold;
 }
+.nav .nav-item .servers {
+    font-size: 20px;
+    color: rgb(0, 119, 255);
+    font-weight: 600;
+}
 @media only screen and (max-width: 600px) {
     .nav .nav-item .box {
        display: none;
@@ -45,7 +50,7 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
   }
 /* header scroll styling */
 .header-scroll-main {
-    height: 50vh;
+    height: 30rem;
     background: rgb(27,0,149);
 background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, rgba(12,43,162,1) 69%, rgba(13,32,111,1) 100%);
 }
@@ -56,7 +61,7 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
 }
 .header-scroll-display {
     display: flex;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .header-scroll-content-one li {
     color: white;
@@ -69,6 +74,7 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
 /* server display sales */
 .card-display {
     display: flex;
+    justify-content: center;
 }
 .content-one h3 {
     margin-top: 30px;
@@ -85,4 +91,11 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 20px;
+    height: 200px;
+    border-color: rgb(0, 106, 255) !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-radius: 0 !important;
+    max-width: 400px ;
+
 }
