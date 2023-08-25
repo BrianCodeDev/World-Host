@@ -5,8 +5,9 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
 }
 .navbar .container-fluid .navbar-brand {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
     color: white;
+
 }
 .d-flex li a {
     text-decoration: none;
@@ -37,6 +38,11 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
     border-radius: 4px;
     font-weight: bold;
 }
+@media only screen and (max-width: 600px) {
+    .nav .nav-item .box {
+       display: none;
+    }
+  }
 /* header scroll styling */
 .header-scroll-main {
     height: 50vh;
@@ -45,6 +51,8 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
 }
 .header-scroll-content-one h3 {
     color: rgb(221, 255, 216);
+    font-size: 40px;
+    font-weight: 800;
 }
 .header-scroll-display {
     display: flex;
@@ -64,10 +72,13 @@ background: linear-gradient(90deg, rgba(27,0,149,1) 4%, rgba(16,48,172,1) 43%, r
 }
 .content-one h3 {
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
 }
 .content-one p {
     margin-bottom: 30px;
+    font-size: 23px;
 }
 .card-group .card {
     margin-top: 30px;
